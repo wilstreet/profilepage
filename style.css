@@ -1,0 +1,152 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    
+    clear: both;
+    font-size: 15pt;
+    color:black;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span:hover {
+    border: 4px dashed #CC5F7E;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-perfil{
+ 
+    border: 1px solid white;
+    border-radius: 100%;
+    
+}
+.section {
+    background-color: #D6D6D6;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+
+#aboutme{
+    display: -webkit-inline-box;
+}
+#aboutme h1{
+    display: block
+
+}
+#aboutme p {
+   
+     float: none;    
+     width: 31%;
+ }
+ #aboutme ul {
+     float: none;;
+    width: 31%;
+ }
+ #aboutme ol {
+     float: none;
+    width: 31%;
+ }
+
+
+#header ul {
+   
+    text-align: right;
+    display: inline;
+    float: right;
+}
+
+#header ul:hover { 
+    color: #CC5F7E;
+    }
+    
+    
+#banner {
+    clear: both;
+    background-image: url("img/fondo1.jpg");
+    background-size: cover;
+}
+#banner img {
+    display: table-cell;
+    width: 100px;
+    height: 120px;
+    margin: auto;
+}
+#banner h1 {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+li {
+    margin-bottom: 15px;
+   
+}
+
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color:#CC99A7;;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #CC5F7E; ;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+
+#know img {
+    height: 150px;
+    width: 150px;
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 100%;
+}
+#know a {
+    text-decoration: none;
+}
+#know img:hover {
+    opacity: 0.8;
+}
+#know {
+    text-align: center;
+}
